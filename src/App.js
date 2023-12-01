@@ -1,11 +1,18 @@
 import React, { Component} from 'react'
+import Header from './Header';
 
 function App() {
   return (
+    // <div>
+    // <h1>UpGrad</h1>
+    // <p>We are your F1 button for education!</p>,
+    // document.getElementById("root")
+    // </div>
     <div>
-    <div className='header'>
+    {/* <div className='header'>
      Phone Directory
-    </div>
+    </div> */}
+    <Header/>
     <button>Add</button>
     <div>
       <span>Name</span><br></br>
