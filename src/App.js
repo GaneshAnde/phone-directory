@@ -29,7 +29,7 @@ class App extends Component{
         {/* <div className='header'>
        Phone Directory
       </div> */}
-        <Header />
+        <Header heading = 'Phone Directory' />
         <div className="component-body-container">
             <button className="custom-btn add-btn">Add</button>
   

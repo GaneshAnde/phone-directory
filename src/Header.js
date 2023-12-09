@@ -1,13 +1,13 @@
 import React from "react";
 import './Header.css'
 
-const Header = function(){
+const Header = function(props){
     //style={{textAlign:"center",background:"#000", color:'#fff', padding:20, fontSize:20,textTransform:'uppercase' }}
     
     return (
         <div>
             <div className="header">
-                Phone Directory
+               {props.heading}
             </div>
         </div>
         
