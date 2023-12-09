@@ -34,7 +34,8 @@ class App extends Component{
             <button className="custom-btn add-btn">Add</button>
   
             <div className="grid-container heading-container">
-              <span className="grid-item name-heading">Name</span>
+              <h3 className="grid-item name-heading">Name "of the" person</h3>
+              <p className="grid-item name-heading">Name "of the" person</p>
               <span className="grid-item phone-heading">Phone</span>
             </div>          
 
@@ -43,6 +44,10 @@ class App extends Component{
                 return  <div key = {sub.id} className="grid-container">
                 <span className="grid-item">{sub.name}</span>
                 <span className="grid-item">{sub.phone}</span>
+                <span className='grid-item action-btn-container' >
+                  <button className='custom-btn delete-btn'>Delete</button>
+                </span>
+                
               </div>
               })
             }
